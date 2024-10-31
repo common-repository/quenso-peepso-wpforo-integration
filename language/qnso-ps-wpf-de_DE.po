@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PeepSo - wpForo Integration by Quenso\n"
+"POT-Creation-Date: 2020-05-16 20:55+0200\n"
+"PO-Revision-Date: 2020-05-16 20:59+0200\n"
+"Last-Translator: Quenso <info@quenso.de>\n"
+"Language-Team: Quenso <info@quenso.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsowpforo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/configsection.php:23
+msgid ""
+"Number of characters to show before cutting text in profiles and activities"
+msgstr ""
+"Anzahl der Zeichen die gezeigt werden sollen, bevor der Text in Profilen und "
+"Aktivitäten gekürzt wird."
+
+#: classes/configsection.php:24
+msgid "Character to show"
+msgstr "Angezeigte Zeichen"
+
+#: classes/configsection.php:26
+msgid "General"
+msgstr "Allgemein"
+
+#: classes/configsection.php:31
+msgid "All Premium Features"
+msgstr "Alle Premium Features"
+
+#: classes/configsection.php:31
+msgid "Redirect forum profiles to PeepSo profiles"
+msgstr "Leitet Forum Profile zu PeepSo Profilen weiter"
+
+#: classes/configsection.php:31
+msgid "Show forum stats of members inside their PeepSo profile"
+msgstr "Zeige Forum Statistiken von Mitgliedern in ihren Profilen"
+
+#: classes/configsection.php:31
+msgid "Use PeepSo avatars inside your forum"
+msgstr "Nutze PeepSo Avatare in deinem Forum"
+
+#: classes/configsection.php:31
+msgid ""
+"Member can change their forum notification settings inside their PeepSo "
+"profiles"
+msgstr ""
+"Mitglieder können ihre Einstellungen für Forum Benachrichtigungen in ihren "
+"Profilen ändern"
+
+#: classes/configsection.php:31
+msgid "Fully integrates subscription settings in your members profiles"
+msgstr ""
+"Integriert Abonnement Einstellungen vollständig in das Profil ihrer "
+"Mitglieder"
+
+#: classes/configsection.php:31
+msgid "Forum related links can be shown in the navigation of PeepSo"
+msgstr "Forum bezogene Links können in der PeepSo Navigation angezeigt werden"
+
+#: classes/configsection.php:31
+msgid ""
+"Show the PeepSo toolbar in forum pages to make your forum and PeepSo one big "
+"community"
+msgstr ""
+"Zeige die PeepSo Toolbar auf Foren Seiten an und mach aus deinem Forum und "
+"PeepSo eine einzige große Community"
+
+#: classes/configsection.php:34
+msgid "Premium Features"
+msgstr "Premium Features"
+
+#: classes/configsection.php:34
+msgid "Get the PRO version to use all features of this integration"
+msgstr ""
+"Hol dir jetzt die PRO Version um alle Features der Integration zu nutzen"
+
+#: classes/configsection.php:40
+msgid ""
+"Send notifications to the author and subscribers if someone replies to a "
+"topic."
+msgstr ""
+"Benachrichtigungen an den Autor und Abonnenten schicken, wenn jemand auf das "
+"Thema antwortet."
+
+#: classes/configsection.php:41
+msgid "New post notifications"
+msgstr "Neuer Beitrag Benachrichtigungen"
+
+#: classes/configsection.php:44
+msgid "Create an activity if someone replies to a topic."
+msgstr "Aktivität erstellen, wenn jemand auf ein Thema antwortet."
+
+#: classes/configsection.php:45
+msgid "New post activity"
+msgstr "Neuer Beitrag Aktivität"
+
+#: classes/configsection.php:48
+msgid "Show content of the new post in activity."
+msgstr "Inhalt des neuen Beitrags in der Aktivität anzeigen."
+
+#: classes/configsection.php:49
+msgid "New post activity shows content"
+msgstr "Inhalt in Neuer Beitrag Aktivität"
+
+#: classes/configsection.php:52
+msgid "Send notifications to subscribers if someone creates a new topic."
+msgstr ""
+"Benachrichtigungen an Abonnenten schicken, wenn jemand ein neues Thema "
+"erstellt."
+
+#: classes/configsection.php:53
+msgid "New topic notifications"
+msgstr "Neues Thema Benachrichtigung"
+
+#: classes/configsection.php:56
+msgid "Create an activity if someone creates a new topic."
+msgstr "Aktivität erstellen, wenn jemand ein neues Thema erstellt."
+
+#: classes/configsection.php:57
+msgid "New topic activity"
+msgstr "Neues Thema Aktivität"
+
+#: classes/configsection.php:60
+msgid "Show content of the first topic post in activity."
+msgstr "Inhalt des ersten Themenbeitrags in der Aktivität anzeigen."
+
+#: classes/configsection.php:61
+msgid "New topic activity shows content"
+msgstr "Inhalt in Neues Thema Aktivität"
+
+#: classes/configsection.php:63
+msgid "Activity stream and notifications"
+msgstr "Aktivitäten und Benachrichtigungen"
+
+#: classes/configsection.php:69
+msgid ""
+"Clean up all wpForo activities, notifications and config settings in PeepSo "
+"on deactivation. </br><b><font color=\"red\">Be careful!</b> All data will "
+"be deleted after deactivation!</font>"
+msgstr ""
+"Bereinige alle Aktivitäten, Benachrichtigungen und Optionen von wpForo in "
+"PeepSo bei Deaktivierung des Plugins.</br><b><font color=\"red\">ACHTUNG!</"
+"b> Alle Daten werden nach der Deaktivierung unwiderruflich gelöscht!</font>"
+
+#: classes/configsection.php:70
+msgid "Clean up PeepSo"
+msgstr "PeepSo Aufräumen"
+
+#: classes/configsection.php:72
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: peepsowpforo.php:93
+#, php-format
+msgid ""
+"The version of %1$s plugin hasn&rsquo;t been testet with actual version of "
+"PeepSo and can cause errors. Please check for updates on %1$s."
+msgstr ""
+"Die Version des %1$s Plugins wurde noch nicht mit der aktuellen Version von "
+"PeepSo getestet und kann Fehler hervorrufen. Bitte überprüfe %1$s auf neue "
+"Updates."
+
+#: peepsowpforo.php:94
+#, php-format
+msgid "last testet: %s"
+msgstr "zuletzt getestet: %s"
+
+#: peepsowpforo.php:106
+#, php-format
+msgid ""
+"The %s plugin requires the PeepSo and wpForo plugins to be installed and "
+"activated."
+msgstr ""
+"Das %s Plugin erfordert die Installation und Aktivierung von PeepSo und "
+"wpForo."
+
+#: peepsowpforo.php:131
+msgid "Get PRO version of this plugin"
+msgstr "Hol dir die PRO Version von diesem Plugin"
+
+#: peepsowpforo.php:217
+#, php-format
+msgid "replied to your topic: %s"
+msgstr "hat auf dein Thema geantwortet: %s"
+
+#: peepsowpforo.php:233
+#, php-format
+msgid "replied to a subscribed topic: %s"
+msgstr "hat auf ein abonniertes Thema geantwortet: %s"
+
+#: peepsowpforo.php:296
+#, php-format
+msgid "created a topic in a subscribed forum: %s"
+msgstr "hat ein Thema in einem abonniertem Forum erstellt: %s"
+
+#: peepsowpforo.php:426
+#, php-format
+msgid "replied to a topic: <a href=\"%1$s\">%2$s</a>"
+msgstr "hat auf ein Thema geantwortet: <a href=\"%1$s\">%2$s</a>"
+
+#: peepsowpforo.php:430
+#, php-format
+msgid "created a new topic: <a href=\"%1$s\">%2$s</a>"
+msgstr "hat ein neues Thema erstellt: <a href=\"%1$s\">%2$s</a>"
+
+#: peepsowpforo.php:439
+msgid "shared a forum activity"
+msgstr "hat eine Forum Aktivität geteilt"
+
+#: peepsowpforo.php:453
+msgid "Someone replies to your topic"
+msgstr "Jemand hat auf dein Thema geantwortet"
+
+#: peepsowpforo.php:458
+msgid "Someone replies to a subscribed topic"
+msgstr "Jemand hat auf ein abonniertes Thema geantwortet"
+
+#: peepsowpforo.php:465
+msgid "Someone creates a topic in a subscribed forum"
+msgstr "Jemand hat ein Thema in einem abonniertem Forum erstellt"
+
+#: peepsowpforo.php:474 peepsowpforo.php:479 peepsowpforo.php:484
+msgid "Forum"
+msgstr "Forum"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo - wpForo Integration by Quenso"
+msgstr "PeepSo - wpForo Integration by Quenso"
+
+#. Plugin URI of the plugin/theme
+msgid "https://quenso.de/plugin/peepso-wpforo-integration/"
+msgstr "https://quenso.de/plugin/peepso-wpforo-integration/"
+
+#. Description of the plugin/theme
+msgid "Integrate wpForo in your PeepSo community."
+msgstr "Integriere wpForo in deine PeepSo Community."
+
+#. Author of the plugin/theme
+msgid "Quenso"
+msgstr "Quenso"
+
+#. Author URI of the plugin/theme
+msgid "https://quenso.de"
+msgstr "https://quenso.de"
+
+#~ msgid ""
+#~ "Please enter a license to use all of the features and receive automatic "
+#~ "updates."
+#~ msgstr ""
+#~ "Gib deinen Lizenz Key ein um alle Funktionen und automatische Updates zu "
+#~ "aktivieren."
+
+#~ msgid "Enter License."
+#~ msgstr "Lizenz Key eingeben."
+
+#~ msgid "License settings"
+#~ msgstr "Lizenz Einstellungen"
+
+#~ msgid "Licenses"
+#~ msgstr "Linzenzen"
+
+#~ msgid "License updated."
+#~ msgstr "Lizenz aktualisiert."
+
+#~ msgid "Get support"
+#~ msgstr "Support"
+
+#~ msgid "Donate"
+#~ msgstr "Spenden"
+
+#, php-format
+#~ msgid "Your license key expired on %s."
+#~ msgstr "Deine Lizenz läuft am %s ab."
+
+#~ msgid "Your license key has been disabled."
+#~ msgstr "Deine Lizenz wurde deaktiviert."
+
+#~ msgid "Invalid license."
+#~ msgstr "Fehlerhafte Lizenz."
+
+#~ msgid "Your license is not active for this URL."
+#~ msgstr "Deine Lizenz ist für diese URL nicht aktiv."
+
+#, php-format
+#~ msgid "This appears to be an invalid license key for %s."
+#~ msgstr "Dies scheint ein ungültiger Lizenz Key für %s zu sein."
+
+#~ msgid "Your license key has reached its activation limit."
+#~ msgstr "Deine Lizenz hat ihr maximum an Aktivierungen erreicht."
+
+#~ msgid "An error occurred, please try again."
+#~ msgstr "Es ist ein Fehler aufgetreten, bitte versuch es nochmal."
+
+#~ msgid "Update license"
+#~ msgstr "Lizenz aktualisieren"
+
+#~ msgid "Activate license"
+#~ msgstr "Lizenz aktivieren"
+
+#~ msgid "Please enter your license key."
+#~ msgstr "Gib bitte deinen Lizenz Key ein."
+
+#~ msgid "Please enter a valid licence key."
+#~ msgstr "Gib bitte einen gültigen Lizenz Key ein."
+
+#~ msgid "Your license is active."
+#~ msgstr "Deine Lizenz ist aktiv."
+
+#, php-format
+#~ msgid "Expires in %s"
+#~ msgstr "Läuft in %s ab"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Es ist eine neue Version für %1$s verfügbar. %2$sVersion ansehen %3$s "
+#~ "details%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Es ist eine neue Version für %1$s verfügbar. %2$sVersion ansehen %3$s "
+#~ "details%4$s oder %5$sjetzt updaten%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Du hast keine Berechtigung um Plugin Updates zu installieren"
+
+#~ msgid "Error"
+#~ msgstr "Fehler"
+
+#~ msgid ""
+#~ "Show PeepSo Toolbar in wpForo pages. Toolbar will show login widget for "
+#~ "logged out users."
+#~ msgstr ""
+#~ "Zeige die PeepSo Toolbar auf wpForo Seiten. Die Toolbar zeigt das Login "
+#~ "Widget für Benutzer die ausgeloggt sind."
+
+#~ msgid "Show toolbar"
+#~ msgstr "Toolbar anzeigen"
+
+#~ msgid "Add forum link to PeepSo navigation."
+#~ msgstr "Forum link zur PeepSo Navigation hinzufügen."
+
+#~ msgid "Add forum link"
+#~ msgstr "Forum Link hinzufügen"
+
+#~ msgid "Add subscriptions link to PeepSo navigation."
+#~ msgstr "Abonnements link zur PeepSo Navigation hinzufügen."
+
+#~ msgid "Add subscriptions link"
+#~ msgstr "Abonnements Link hinzufügen"
+
+#~ msgid ""
+#~ "Change wpForo profile URL to PeepSo&prime;s. Has no effect if &Prime;"
+#~ "<i>Always link to PeepSo profile</i>&Prime; is set to &Prime;<i>yes</"
+#~ "i>&Prime;. "
+#~ msgstr ""
+#~ "Ändert die wpForo Profil URL in die von PeepSo. Hat keinen Effekt, wenn "
+#~ "&Prime;<i>Immer mit PeepSo-Profil verbinden</i>&Prime; auf &Prime;<i>JA</"
+#~ "i>&Prime; gesetzt ist. "
+
+#~ msgid "Change profile URL"
+#~ msgstr "Ändern der Profil-URL"
+
+#~ msgid "Change wpForo avatars to PeepSo avatars"
+#~ msgstr "Übernimmt PeepSo Avatare im forum"
+
+#~ msgid "Show Forum tab"
+#~ msgstr "Zeige Forum Tab"
+
+#~ msgid "Number of posts to show per page in Forum tab"
+#~ msgstr ""
+#~ "Anzahl der Beiträge die im Forum Tab pro Seite angezeigt werden sollen"
+
+#~ msgid "Posts per page"
+#~ msgstr "Beiträge pro Seite"
+
+#~ msgid "Profile integration"
+#~ msgstr "Profilintegration"
+
+#~ msgid "Send notifications for likes and mentions."
+#~ msgstr "Benachrichtigungen für neue Gefällt mir und Erwähnungen."
+
+#~ msgid "Like and mention notifications"
+#~ msgstr "Gefällt mir und Erwähnung Benachrichtigung"
+
+#~ msgid "New forum post in topic"
+#~ msgstr "Neuer Forum Beitrag in Thema"
+
+#~ msgid "This will be sent when a user replied to another user's forum topic."
+#~ msgstr ""
+#~ "Dies wird gesendet wenn ein User auf ein Forum Thema eines anderen Users "
+#~ "antwortet."
+
+#~ msgid "New forum post in subscribed topic"
+#~ msgstr "Neuer Forum Beitrag in einem abonniertem Thema"
+
+#~ msgid ""
+#~ "This will be sent when a user replied to another user's subscribed forum "
+#~ "topic."
+#~ msgstr ""
+#~ "Dies wird gesendet, wenn ein User auf ein Abonniertes Forum Thema eines "
+#~ "anderen Users antwortet."
+
+#~ msgid ""
+#~ "Hello {userfirstname},\n"
+#~ "\n"
+#~ "{fromfirstname} replied on your topic!\n"
+#~ "\n"
+#~ "You can see this post here:\n"
+#~ "{permalink}\n"
+#~ "\n"
+#~ "Thank you."
+#~ msgstr ""
+#~ "Hallo {userfirstname},\n"
+#~ "\n"
+#~ "{fromfirstname} hat auf dein Thema geantwortet!\n"
+#~ "\n"
+#~ "Du kannst den Beitrag hier sehen:\n"
+#~ "{permalink}\n"
+#~ "\n"
+#~ "Dankeschön."
+
+#~ msgid ""
+#~ "Hello {userfirstname},\n"
+#~ "\n"
+#~ "{fromfirstname} replied on a subscribed topic!\n"
+#~ "\n"
+#~ "You can see this post here:\n"
+#~ "{permalink}\n"
+#~ "\n"
+#~ "Thank you."
+#~ msgstr ""
+#~ "Hallo {userfirstname},\n"
+#~ "\n"
+#~ "{fromfirstname} hat auf ein abonniertes Thema geantwortet!\n"
+#~ "\n"
+#~ "Du kannst den Beitrag hier sehen:\n"
+#~ "{permalink}\n"
+#~ "\n"
+#~ "Dankeschön."
+
+#, php-format
+#~ msgid "mentioned you in a post: %s"
+#~ msgstr "hat dich in einem Beitrag erwähnt: %s"
+
+#, php-format
+#~ msgid "liked your post: %s"
+#~ msgstr "gefällt dein Beitrag: %s"
+
+#, php-format
+#~ msgid "voted positive on your post: %s"
+#~ msgstr "hat deinen Beitrag positiv bewertet: %s"
+
+#, php-format
+#~ msgid "voted negative on your post: %s"
+#~ msgstr "hat deinen Beitrag negativ bewertet: %s"
+
+#~ msgid "Someone mentiones you or likes your post"
+#~ msgstr ""
+#~ "Jemand hat dich erwähnt oder einen Beitrag von dir mit Gefällt mir "
+#~ "markiert"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Abonnements"
+
+#~ msgid "Forum activities"
+#~ msgstr "Forum Aktivitäten"
+
+#~ msgid "Topics started"
+#~ msgstr "Gestartete Themen"
+
+#~ msgid "Asked questions"
+#~ msgstr "Gestellte Fragen"
+
+#~ msgid "Posts liked"
+#~ msgstr "Beiträge mit gefällt mir markiert"
+
+#~ msgid "Replies created"
+#~ msgstr "Erstellte Antworten"
+
+#~ msgid "Questions answered"
+#~ msgstr "Fragen beantwortet"
+
+#~ msgid "Likes recieved"
+#~ msgstr "Gefällt mir erhalten"
+
+#~ msgid "Forum Rating: "
+#~ msgstr "Foren Bewertung:"
+
+#~ msgid "Forum Group: "
+#~ msgstr "Foren Gruppe:"
+
+#~ msgid "Forum Title: "
+#~ msgstr "Foren Titel:"
+
+#~ msgid "Overview"
+#~ msgstr "Übersicht"
+
+#~ msgid "Topics"
+#~ msgstr "Themen"
+
+#~ msgid "Replies"
+#~ msgstr "Antworten"
+
+#, php-format
+#~ msgid "%s ago"
+#~ msgstr "vor %s"
+
+#~ msgid "View full post"
+#~ msgstr "Den ganzen Beitrag ansehen"
+
+#~ msgid "This user hasn't created any replies yet!"
+#~ msgstr "Dieser Benutzer hat noch keine Antworten erstellt!"
+
+#~ msgid "Pages:"
+#~ msgstr "Seiten:"
+
+#~ msgid "Notify about new posts in:"
+#~ msgstr "Benachrichtigung über neue Beiträge in:"
+
+#~ msgid "Individual Subscriptions"
+#~ msgstr "Individuelle Abonnements"
+
+#~ msgid "Only topics you are subscribed to."
+#~ msgstr "Nur Themen die du abonniert hast."
+
+#~ msgid "New Topics"
+#~ msgstr "Neue Themen"
+
+#~ msgid "All new topics."
+#~ msgstr "Alle neuen Themen."
+
+#~ msgid "New Topics & Posts"
+#~ msgstr "Neue Themen & Beiträge"
+
+#~ msgid "All new topics and posts."
+#~ msgstr "Alle neuen Themen und Beiträge."
+
+#~ msgid "Your subscribed topics:"
+#~ msgstr "Deine abonnierten Themen:"
+
+#~ msgid "You get notified about all new posts."
+#~ msgstr "Du wirst über alle neuen Beiträge benachrichtigt."
+
+#~ msgid "No topic subscriptions yet!"
+#~ msgstr "Keine abonnierten Themen bisher!"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Deabonnieren"
+
+#~ msgid "Your subscribed forums:"
+#~ msgstr "Deine abonnierten Foren:"
+
+#~ msgid "You get notified about all new topics."
+#~ msgstr "Du wirst über alle neuen Themen benachrichtigt."
+
+#~ msgid "No forum subscriptions yet!"
+#~ msgstr "Keine abonnierten Foren bisher!"
+
+#~ msgid "This user hasn't created any topics yet!"
+#~ msgstr "Dieser Benutzer hat noch keine Themen erstellt!"
+
+#~ msgid "Connect wpForo with PeepSo."
+#~ msgstr "Verbinde wpForo mit PeepSo."

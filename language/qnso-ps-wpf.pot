@@ -1,0 +1,236 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: PeepSo - wpForo Integration by Quenso\n"
+"POT-Creation-Date: 2020-05-16 20:59+0200\n"
+"PO-Revision-Date: 2020-05-10 16:11+0200\n"
+"Last-Translator: Quenso <info@quenso.de>\n"
+"Language-Team: Quenso <info@quenso.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: peepsowpforo.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/configsection.php:23
+msgid ""
+"Number of characters to show before cutting text in profiles and activities"
+msgstr ""
+
+#: classes/configsection.php:24
+msgid "Character to show"
+msgstr ""
+
+#: classes/configsection.php:26
+msgid "General"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid "All Premium Features"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid "Redirect forum profiles to PeepSo profiles"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid "Show forum stats of members inside their PeepSo profile"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid "Use PeepSo avatars inside your forum"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid ""
+"Member can change their forum notification settings inside their PeepSo "
+"profiles"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid "Fully integrates subscription settings in your members profiles"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid "Forum related links can be shown in the navigation of PeepSo"
+msgstr ""
+
+#: classes/configsection.php:31
+msgid ""
+"Show the PeepSo toolbar in forum pages to make your forum and PeepSo one "
+"big community"
+msgstr ""
+
+#: classes/configsection.php:34
+msgid "Premium Features"
+msgstr ""
+
+#: classes/configsection.php:34
+msgid "Get the PRO version to use all features of this integration"
+msgstr ""
+
+#: classes/configsection.php:40
+msgid ""
+"Send notifications to the author and subscribers if someone replies to a "
+"topic."
+msgstr ""
+
+#: classes/configsection.php:41
+msgid "New post notifications"
+msgstr ""
+
+#: classes/configsection.php:44
+msgid "Create an activity if someone replies to a topic."
+msgstr ""
+
+#: classes/configsection.php:45
+msgid "New post activity"
+msgstr ""
+
+#: classes/configsection.php:48
+msgid "Show content of the new post in activity."
+msgstr ""
+
+#: classes/configsection.php:49
+msgid "New post activity shows content"
+msgstr ""
+
+#: classes/configsection.php:52
+msgid "Send notifications to subscribers if someone creates a new topic."
+msgstr ""
+
+#: classes/configsection.php:53
+msgid "New topic notifications"
+msgstr ""
+
+#: classes/configsection.php:56
+msgid "Create an activity if someone creates a new topic."
+msgstr ""
+
+#: classes/configsection.php:57
+msgid "New topic activity"
+msgstr ""
+
+#: classes/configsection.php:60
+msgid "Show content of the first topic post in activity."
+msgstr ""
+
+#: classes/configsection.php:61
+msgid "New topic activity shows content"
+msgstr ""
+
+#: classes/configsection.php:63
+msgid "Activity stream and notifications"
+msgstr ""
+
+#: classes/configsection.php:69
+msgid ""
+"Clean up all wpForo activities, notifications and config settings in PeepSo "
+"on deactivation. </br><b><font color=\"red\">Be careful!</b> All data will "
+"be deleted after deactivation!</font>"
+msgstr ""
+
+#: classes/configsection.php:70
+msgid "Clean up PeepSo"
+msgstr ""
+
+#: classes/configsection.php:72
+msgid "Uninstall"
+msgstr ""
+
+#: peepsowpforo.php:93
+#, php-format
+msgid ""
+"The version of %1$s plugin hasn&rsquo;t been testet with actual version of "
+"PeepSo and can cause errors. Please check for updates on %1$s."
+msgstr ""
+
+#: peepsowpforo.php:94
+#, php-format
+msgid "last testet: %s"
+msgstr ""
+
+#: peepsowpforo.php:106
+#, php-format
+msgid ""
+"The %s plugin requires the PeepSo and wpForo plugins to be installed and "
+"activated."
+msgstr ""
+
+#: peepsowpforo.php:131
+msgid "Get PRO version of this plugin"
+msgstr ""
+
+#: peepsowpforo.php:217
+#, php-format
+msgid "replied to your topic: %s"
+msgstr ""
+
+#: peepsowpforo.php:233
+#, php-format
+msgid "replied to a subscribed topic: %s"
+msgstr ""
+
+#: peepsowpforo.php:296
+#, php-format
+msgid "created a topic in a subscribed forum: %s"
+msgstr ""
+
+#: peepsowpforo.php:426
+#, php-format
+msgid "replied to a topic: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: peepsowpforo.php:430
+#, php-format
+msgid "created a new topic: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: peepsowpforo.php:439
+msgid "shared a forum activity"
+msgstr ""
+
+#: peepsowpforo.php:453
+msgid "Someone replies to your topic"
+msgstr ""
+
+#: peepsowpforo.php:458
+msgid "Someone replies to a subscribed topic"
+msgstr ""
+
+#: peepsowpforo.php:465
+msgid "Someone creates a topic in a subscribed forum"
+msgstr ""
+
+#: peepsowpforo.php:474 peepsowpforo.php:479 peepsowpforo.php:484
+msgid "Forum"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo - wpForo Integration by Quenso"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://quenso.de/plugin/peepso-wpforo-integration/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrate wpForo in your PeepSo community."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quenso"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://quenso.de"
+msgstr ""
